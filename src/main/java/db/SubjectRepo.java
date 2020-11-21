@@ -11,5 +11,5 @@ public interface SubjectRepo {
     Subject getSubject(String name) throws SQLException;
     void create(Subject item) throws SQLException;
     void update(Subject item) throws SQLException;
-    void delete(Subject item) throws SQLException;
+    void delete(int item) throws SQLException;
 }
